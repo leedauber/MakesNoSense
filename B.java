@@ -1,6 +1,10 @@
 public class B {
     protected int data;
 
+    public B() {
+        this(0);
+    }
+
     public B(int data) {
         this.data = data;
     }
